@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#add-order-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-order-btn:hover {
+    background-color: #4a54c2;
+}
+
+.orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.order-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.5s;
+}
+
+.order-card h3 {
+    margin-top: 0;
+}
+
+/* Estilos para los estados del pedido */
+.en-proceso {
+    background-color: #fff3cd; /* Amarillo */
+    border-left: 5px solid #ffeeba;
+}
+
+.completado {
+    background-color: #d4edda; /* Verde */
+    border-left: 5px solid #c3e6cb;
+    text-decoration: line-through;
+}
