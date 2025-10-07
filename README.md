@@ -11,15 +11,8 @@ Este simulador tiene una pantalla y un botón.
 
 Todo esto ocurre sin que la página se congele, y se pueden agregar múltiples pedidos al mismo tiempo.
 
-## Tecnologías Utilizadas ⚙️
-
 * HTML
 * CSS
 * JavaScript
     * `setTimeout` para simular las esperas.
     * `Promises` y `async/await` para manejar el flujo asíncrono.
-
-## ¿Cómo usarlo?
-
-1.  Descarga o clona este repositorio.
-2.  Abre el archivo `index.html` en cualquier navegador web.
